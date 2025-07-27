@@ -1,0 +1,50 @@
+body {
+  background: #121212;
+  color: white;
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.avatar {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 20px;
+  filter: contrast(1.2) brightness(0.9);
+}
+
+.username {
+  font-size: 2.5rem;
+  margin: 20px 0 10px;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+.socials a {
+  margin: 0 10px;
+  color: white;
+  font-size: 1.5em;
+  transition: 0.3s;
+}
+
+.socials a:hover {
+  color: #1DB954;
+}
+
+.tracks {
+  margin-top: 30px;
+}
+
+.track {
+  background: var(--color);
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
